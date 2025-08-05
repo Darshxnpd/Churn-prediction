@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("C:/Code/Churn-Prediction/data/WA_Fn-UseC_-Telco-Customer-Churn.pkl")
 model_columns = joblib.load("C:/Code/Churn-Prediction/data/model_columns.pkl")
 
-st.title("📉 Telco Churn Prediction App")
+st.markdown("Telco Churn Prediction App")
 
 # User input form
 st.sidebar.header("Enter Customer Details")
